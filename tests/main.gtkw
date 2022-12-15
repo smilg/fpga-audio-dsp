@@ -1,0 +1,83 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Wed Dec 14 03:16:16 2022
+[*]
+[dumpfile] "/home/jacob/src/fpga-audio-dsp/main.fst"
+[dumpfile_mtime] "Wed Dec 14 03:14:17 2022"
+[dumpfile_size] 1871531
+[savefile] "/home/jacob/src/fpga-audio-dsp/tests/main.gtkw"
+[timestart] 0
+[size] 1908 1047
+[pos] -1 -1
+*-22.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_main.
+[sst_width] 214
+[signals_width] 308
+[sst_expanded] 1
+[sst_vpaned_height] 309
+@200
+-Clock Things
+@28
+test_main.UUT.sysclk
+test_main.UUT.sample_clk
+test_main.UUT.count[2:0]
+@200
+-
+-Circular Buffer
+@2028
+^1 /home/jacob/src/fpga-audio-dsp/tests/delay_states.txt
+test_main.UUT.state[2:0]
+@22
+test_main.UUT.rd_addr[15:0]
+test_main.UUT.wr_addr[15:0]
+@28
+test_main.UUT.wr_ena
+@22
+test_main.UUT.rd_data[7:0]
+@200
+-
+-Sample Input
+@420
+test_main.UUT.sample_in[15:0]
+@8420
+test_main.UUT.sample_in[15:0]
+@20000
+-
+-
+@200
+-Sample Output
+@420
+test_main.UUT.sample_out[15:0]
+@c08420
+test_main.UUT.sample_out[15:0]
+@28
+(0)test_main.UUT.sample_out[15:0]
+(1)test_main.UUT.sample_out[15:0]
+(2)test_main.UUT.sample_out[15:0]
+(3)test_main.UUT.sample_out[15:0]
+(4)test_main.UUT.sample_out[15:0]
+(5)test_main.UUT.sample_out[15:0]
+(6)test_main.UUT.sample_out[15:0]
+(7)test_main.UUT.sample_out[15:0]
+(8)test_main.UUT.sample_out[15:0]
+(9)test_main.UUT.sample_out[15:0]
+(10)test_main.UUT.sample_out[15:0]
+(11)test_main.UUT.sample_out[15:0]
+(12)test_main.UUT.sample_out[15:0]
+(13)test_main.UUT.sample_out[15:0]
+(14)test_main.UUT.sample_out[15:0]
+(15)test_main.UUT.sample_out[15:0]
+@1401200
+-group_end
+@20000
+-
+-
+@24
+test_main.UUT.sample_out_buffer[15:0]
+@8420
+test_main.UUT.sample_out_buffer[15:0]
+@20000
+-
+-
+[pattern_trace] 1
+[pattern_trace] 0
