@@ -1,15 +1,13 @@
 [*]
 [*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
-[*] Wed Dec 14 03:16:16 2022
+[*] Thu Dec 15 07:21:05 2022
 [*]
-[dumpfile] "/home/jacob/src/fpga-audio-dsp/main.fst"
-[dumpfile_mtime] "Wed Dec 14 03:14:17 2022"
-[dumpfile_size] 1871531
+[dumpfile] "(null)"
 [savefile] "/home/jacob/src/fpga-audio-dsp/tests/main.gtkw"
 [timestart] 0
 [size] 1908 1047
 [pos] -1 -1
-*-22.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-36.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] test_main.
 [sst_width] 214
 [signals_width] 308
@@ -20,20 +18,17 @@
 @28
 test_main.UUT.sysclk
 test_main.UUT.sample_clk
-test_main.UUT.count[2:0]
 @200
 -
 -Circular Buffer
 @2028
 ^1 /home/jacob/src/fpga-audio-dsp/tests/delay_states.txt
-test_main.UUT.state[2:0]
+test_main.UUT.state[1:0]
 @22
 test_main.UUT.rd_addr[15:0]
 test_main.UUT.wr_addr[15:0]
 @28
 test_main.UUT.wr_ena
-@22
-test_main.UUT.rd_data[7:0]
 @200
 -
 -Sample Input
