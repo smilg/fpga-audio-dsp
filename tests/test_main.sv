@@ -1,3 +1,11 @@
+/*
+To change the audio samples loaded by the testbench, edit the constants
+defined at the bottom of ../memories/generate_sine_samples.py and run the
+script. Then change the file name in the `$readmemh` call at the start of the
+`initial` block in this file. You may also need to change the parameter
+`NUM_SAMPLES` in this file accordingly.
+*/
+
 `timescale 1ns / 1ps
 
 module test_main;

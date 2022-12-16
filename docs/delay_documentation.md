@@ -15,9 +15,9 @@ The two main parts of this project are the circular buffer and the finite state 
 
 ![](images/circularbuffer.jpg)
 
-Above is a diagram of a circular buffer. For it to work, there is a read pointer and a write pointer. The buffer has some amount of length — when the read or write pointer reaches the end of the buffer, it resets back to the start. The read pointer is always 1 address ahead of the write pointer. As data is clocked into the buffer, the data at the read pointer is read from the buffer, some other data is written at the write pointer, and then both pointers increment by 1. Eventually, the read pointer is reading data that from a location written to by the write pointer earlier.
+Above is a diagram of a circular buffer. For it to work, there must be a read pointer and a write pointer. The buffer has a specific length — when the read or write pointer reaches the end of the buffer, it resets back to the start. The read pointer is always 1 address ahead of the write pointer. As data is clocked into the buffer, the data at the read pointer is read from the buffer, some other data is written at the write pointer, and then both pointers increment by 1. Eventually, the read pointer is reading data from a location that was written to by the write pointer earlier.
 
-For an alternate explanation, see the [Wikipedia page](https://en.wikipedia.org/wiki/Circular_buffer).
+For an alternate (and probably better) explanation, see the [Wikipedia page](https://en.wikipedia.org/wiki/Circular_buffer).
 
 By reading and writing audio samples to/from this buffer, you can create a delay effect.
 
